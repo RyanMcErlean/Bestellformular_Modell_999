@@ -147,6 +147,10 @@ h1 {
         text-align: left;
     }
 
+    .tab {
+        text-align: center;
+    }
+
   }
 
   @media only screen and (max-width: 436px) {
