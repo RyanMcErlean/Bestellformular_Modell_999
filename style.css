@@ -109,19 +109,6 @@ h1 {
   }
 
 
-  @media only screen and (max-width: 818px) {
-    .landing_pics {
-        width: 18em;
-        height: 13rem;
-    }
-
-    .outer_wrapper { 
-        max-width: 38rem;
-      }
-
-  }
-
-
   @media only screen and (max-width: 842px) {
     html{
         font-size: 14px;
