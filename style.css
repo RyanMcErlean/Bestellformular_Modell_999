@@ -23,9 +23,11 @@ h1 {
 }
 
 .landing_pics {
-    width: 30rem;
-    height: 25rem;
-    margin: 2rem 1rem;
+
+    margin: 2rem 1rem; 
+    max-width: 30%;
+    min-width: 20rem;
+  height: auto;
 }
 
 /* middle section */
@@ -83,21 +85,13 @@ h1 {
 /* media queries */
 
 @media only screen and (max-width: 1220px) {
-    .landing_pics {
-        width: 25rem;
-        height: 20rem;
-    }
-
+    
     .outer_wrapper { 
         max-width: 58rem;
       }
   }
 
   @media only screen and (max-width: 1020px) {
-    .landing_pics {
-        width: 20rem;
-        height: 15rem;
-    }
 
     .outer_wrapper { 
         max-width: 48rem;
