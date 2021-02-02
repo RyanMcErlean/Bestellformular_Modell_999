@@ -149,24 +149,5 @@ button,a {
 
   }
 
-  @media only screen and (max-width: 436px) {
-    html{
-        font-size: 12px;
-    }
-    .option_pics {
-        width: 12rem;
-        height: 8rem;
-    } 
-   
-   }
 
-   @media only screen and (max-width: 300px) {
-    html{
-        font-size: 11px;
-    }
-    .option_pics {
-        width: 10rem;
-        height: 7rem;
-    } 
-   
-   }
+
