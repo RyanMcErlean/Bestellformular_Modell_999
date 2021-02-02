@@ -160,6 +160,10 @@ button,a {
     .landing_pics {
         min-width: 17rem;
     }
+
+    p {
+        font-size: 14px;
+    }
    }
 
    @media only screen and (max-width: 300px) {
@@ -170,5 +174,7 @@ button,a {
         width: 13rem;
         height: 10rem;
     } 
-   
+    p {
+        font-size: 13px;
+    }
    }
