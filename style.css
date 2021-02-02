@@ -163,6 +163,9 @@ button,a {
 
     .tab {
         text-align: center;
+            margin: 0;
+            
+        
     }
 
   }
@@ -182,6 +185,16 @@ button,a {
     p {
         font-size: 14px;
     }
+    
+    .title {
+       padding-bottom: 2rem;
+    }
+    
+    .top_section {
+        
+        padding: 4rem 2rem;
+    }
+   
    }
 
    @media only screen and (max-width: 300px) {
