@@ -149,5 +149,26 @@ button,a {
 
   }
 
+  @media only screen and (max-width: 436px) {
+    html{
+        font-size: 12px;
+    }
+    .option_pics {
+        width: 14rem;
+        height: 11rem;
+    } 
+    .landing_pics {
+        min-width: 17rem;
+    }
+   }
 
-
+   @media only screen and (max-width: 300px) {
+    html{
+        font-size: 11px;
+    }
+    .option_pics {
+        width: 13rem;
+        height: 10rem;
+    } 
+   
+   }
