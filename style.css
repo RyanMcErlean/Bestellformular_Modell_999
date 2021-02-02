@@ -87,10 +87,10 @@ h1 {
 }
 
 button {
-    background-color: #1c1c1c;
+    background-color: #b5b5b5;
     display:block;
     text-align: center;
-    margin: 2rem auto 0;
+    margin: 2rem 7rem;
     width: 30%;
     min-width: 15rem;
     padding: 0.5rem;
@@ -99,7 +99,7 @@ button {
 }
 button,a {
     text-decoration: none;
-    color: white;
+    color:#1c1c1c;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
@@ -108,9 +108,27 @@ button,a {
 
  button:hover {
     outline: none;
-    background-color: #636262;
+    background-color: white;
     transform: scale(1.1);
- }   
+    
+ } 
+ 
+ 
+/* form section */
+#form  {
+    text-align: center;
+    background-color:#1c1c1c;
+    color: white;
+    padding: 3rem 0;
+}
+
+#form p {
+    text-align: left;
+}
+
+
+
+
 /* media queries */
 
 @media only screen and (max-width: 1220px) {
@@ -170,6 +188,7 @@ button,a {
     html{
         font-size: 11px;
     }
+  
     .option_pics {
         width: 13rem;
         height: 10rem;
